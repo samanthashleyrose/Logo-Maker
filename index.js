@@ -16,7 +16,7 @@ class SVG{
     setShapeEl(shape) {
         this.shapeEl = shape.render()
     }
-}
+};
 
 const questions = [
     {
@@ -45,12 +45,12 @@ const questions = [
 // Function to create a new SVG file with users input 
 function createSVG(response){
     fs.writeFile('./examples/logo.svg', response);
-}
+};
 
 async function init(){
     const response = await inquirer.prompt(questions);
     createSVG(shapes(response));
     console.log('A new logo.svg has been created and saved to examples');
-}
+};
 
 init();
