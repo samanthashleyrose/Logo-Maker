@@ -1,9 +1,15 @@
 {
   "name": "svg-generator",
+  "version": "1.0.0",
+  "description": "A command line svg logo generator. Input the preferred design and a corresponding svg logo will generate.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "jest"
   },
+  "keywords": [],
+  "author": "Samantha Rose",
+  "license": "MIT",
   "dependencies": {
     "inquirer": "^9.2.12"
   },
