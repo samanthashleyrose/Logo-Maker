@@ -15,7 +15,11 @@ A Node.js command-line application that takes in user input to generate a logo a
 
 ## Installation
 
+In order to use the SVG Logo Generator, it is necessary to have a code editor, such as Visual Studio Code (VSCode), and Node.js installed on your system.
 
+1. Begin by installing Node.js on your computer's terminal/commmand-line. For detailed installation instructions, vist <a href='https://nodejs.org/en'>Node.js.org</a>.
+
+2. Verify the installation of npm, which usually comes bundled with Node.js. Execute the command `npm -v` in your terminal/commmand-line to confirm that you have the latest version downloaded. If npm is not installed, run the command `npm i` before continuing.
 
 ## Usage
 
