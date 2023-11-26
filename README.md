@@ -21,6 +21,8 @@ In order to use the SVG Logo Generator, it is necessary to have a code editor, s
 
 2. Verify the installation of npm, which usually comes bundled with Node.js. Execute the command `npm -v` in your terminal/commmand-line to confirm that you have the latest version downloaded. If npm is not installed, run the command `npm i` before continuing.
 
+3. In addition run the command `npm install inquirer@8`. For the SVG Logo Generator to function properly, you must have inquirer version 8.2.6 installed.
+
 ## Usage
 
 To effectively use the SVG Logo Generator, ensure that all installation requirements are fulfilled before proceeding with the following usage guidelines.
