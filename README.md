@@ -1,4 +1,4 @@
-# SVG-Logo-Generator
+# SVG Logo Generator
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Description
@@ -55,6 +55,9 @@ Follow these steps to ensure a seamless and controlled process for generating, a
 
 ## How to Contribute
 
+If you encounter any issues while using the SVG Logo Generator, I encourage you to open a new issue or submit a pull request through this repository. Your feedback is valuable, and your contributions are appreciated.
+
+Additionally, you are welcome to report any concerns, propose improvements, or share your suggestions. Please don't hesitate to reach out regarding any of these topics. I look forward to collaborating with you to enhance the SVG Logo Generator.
 
 GitHub Profile: <a href="https://github.com/samanthashleyrose">samanthashleyrose</a><br>
 Email: samantha.rose327@gmail.com
