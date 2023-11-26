@@ -79,7 +79,9 @@ Email: samantha.rose327@gmail.com
 <li><a href="https://en.wikipedia.org/wiki/SVG">SVG Wikipedia</a></li>
 <li><a href="https://jestjs.io/docs/cli">Jest CLI Options</a></li>
 <li><a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial">MDN Web Docs - SVG Tutorial</a></li>
+<li><a href="https://git.bootcampcontent.com/University-of-Connecticut/CONN-VIRT-FSF-PT-09-2023-U-LOLC/-/tree/main/10-OOP/02-Challenge?ref_type=heads">Circle and Triangle Starter Code</a></li>
 <li><a href="https://www.youtube.com/watch?v=GJYMcLus3v0">Thomas' Object Oriented Programming SVG LOGO MAKER - Youtube</a></li>
+
 
 ## License
 
