@@ -8,10 +8,13 @@ class SVG{
         this.shapeEl = ''
     }
     render(){
-        return '<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">'
+        return `<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+            ${this.shapeEl}
+            ${this.textEl}
+        </svg>`;
     }
-    setTextEl(text, color){
-        this.textEl = '<text x="150" y="125" font-size="60" text-anchor="middle" fill="white">SVG</text>'
+    setTextEl(text, color) {
+        this.textEl = `<text x="150" y="125" font-size="60" text-anchor="middle" fill="${color}">${text}</text>`;
     }
     setShapeEl(shape) {
         this.shapeEl = shape.render()
@@ -44,7 +47,11 @@ const questions = [
 
 // Function to create a new SVG file with users input 
 function createSVG(response){
-    const svgString = JSON.stringify(response);
+    const svgString = `
+    <svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+        ${response.shapeEl}
+        ${response.textEl}
+    </svg>`;
 
     fs.writeFile('./examples/logo.svg', svgString, (err) => {
         if (err) {
@@ -55,10 +62,28 @@ function createSVG(response){
     });
 };
 
-async function init(){
+async function init() {
     const response = await inquirer.prompt(questions);
-    createSVG((response));
-    console.log('A new logo.svg has been created and saved to examples');
-};
+    const svg = new SVG();
+
+    // Sets the text/text color
+    svg.setTextEl(response.text, response['text-color']);
+    
+    // Correctly identifies the chosen shape from shapes.js
+    let shape;
+    if (response.shape === 'circle') {
+        shape = new Circle();
+    } else if (response.shape === 'square') {
+        shape = new Square();
+    } else if (response.shape === 'triangle') {
+        shape = new Triangle();
+    }
+    
+    // Sets the color for the shape
+    shape.setColor(response['shape-color']);
+    svg.setShapeEl(shape);
+
+    createSVG(svg);
+}
 
 init();
