@@ -19,7 +19,22 @@ A Node.js command-line application that takes in user input to generate a logo a
 
 ## Usage
 
+To effectively use the SVG Logo Generator, ensure that all installation requirements are fulfilled before proceeding with the following usage guidelines.
 
+1. **Clone the Repository:** <br>Begin by cloning the GitHub repository by selecting "Code." Copy the SSH link then execute the `git clone <paste SSH link>` command in your terminal/commmand-line. Next, open the cloned project in your preferred code editor.
+
+2. **Run the Generator:** <br>Right click on the `index.js` file and select "Open in Integrated Terminal". Run the command `node index.js` then answer the prompted questions as they appear.
+
+3. **Confirmation and Retrieval:** <br>Once the questionnaire has been completed, the terminal will confirm the successful generation of the SVG with the message "A new logo.svg has been created and saved to examples". You can now locate the generated `logo.svg` file in the examples folder.
+
+4. **Adjusting Text Placement:** <br>If the text in the generated `logo.svg` does not ideally align within the chosen shape, utilize the 'x,' 'y,' and 'font-size' tags to adjust its position.
+
+5. **Rename the SVG File:** <br>After generating `logo.svg`, consider renaming the file to your preferred name to prevent overwriting when generating a new one.
+Failure to rename may result in a newly generated `logo.svg` overwriting the existing file.
+
+6. **Local Copy and Repository Management:** <br>You may keep a local copy of this cloned repository on your computer for convenient future use. Alternatively, you can remove the cloned repository from your computer and re-clone it as needed.
+
+Follow these steps to ensure a seamless and controlled process for generating, adjusting, and managing your SVG logos.
 
 ## How to Contribute
 
