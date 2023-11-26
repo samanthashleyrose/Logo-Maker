@@ -44,12 +44,20 @@ const questions = [
 
 // Function to create a new SVG file with users input 
 function createSVG(response){
-    fs.writeFile('./examples/logo.svg', response);
+    const svgString = JSON.stringify(response);
+
+    fs.writeFile('./examples/logo.svg', svgString, (err) => {
+        if (err) {
+            console.error('Error writing SVG file:', err);
+        } else {
+            console.log('A new logo.svg has been created and saved to examples');
+        }
+    });
 };
 
 async function init(){
     const response = await inquirer.prompt(questions);
-    createSVG(shapes(response));
+    createSVG((response));
     console.log('A new logo.svg has been created and saved to examples');
 };
 
