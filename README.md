@@ -1,9 +1,20 @@
-# SVG-Logo-Maker
+# SVG-Logo-Generator
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Description
 
-A Node.js command-line application that takes in user input to generate a logo and save it as an SVG file.
+The SVG Logo Generator is a versatile Node.js command-line application designed to simplify the creation of logos through user input, producing high-quality SVG files. Key features of the genereator include:
+
+**Text Customization:**
+Specify the desired text for your logo, with support for up to three characters.
+
+**Color Selection:**
+Choose the color of the text to suit your branding preferences.
+
+**Shape Customization:**
+Tailor your logo further by selecting both the color and shape of the background. Options include circle, square, and triangle.
+
+This user-friendly generator employs an interactive questionnaire, powered by the Inquirer library, to seamlessly guide you through the customization process. With its straightforward approach, the SVG Logo Generator empowers users to effortlessly create simple logos that align with their unique vision and brand identity.
 
 ## Table of Contents
 
