@@ -3,7 +3,7 @@
 
 ## Description
 
-The SVG Logo Generator is a versatile Node.js command-line application designed to simplify the creation of logos through user input, producing high-quality SVG files. Key features of the genereator include:
+The SVG Logo Generator is a versatile Node.js command-line application designed to simplify the creation of logos through user input, producing high-quality SVG files. Checkout the [Usage](#usage) section for a demonstration of the following tools:
 
 **Text Customization:**
 Specify the desired text for your logo, with support for up to three characters.
@@ -20,6 +20,7 @@ This user-friendly generator employs an interactive questionnaire, powered by th
 
 - [Installation](#installation)
 - [Usage](#usage)
+- [Features](#features)
 - [How To Contribute](#how-to-contribute)
 - [Credits](#credits)
 - [License](#license)
@@ -44,7 +45,7 @@ To effectively use the SVG Logo Generator, ensure that all installation requirem
 
 3. **Confirmation and Retrieval:** <br>Once the questionnaire has been completed, the terminal will confirm the successful generation of the SVG with the message "A new logo.svg has been created and saved to examples". You can now locate the generated `logo.svg` file in the examples folder.
 
-4. **Adjusting Text Placement:** <br>If the text in the generated `logo.svg` does not ideally align within the chosen shape, utilize the 'x,' 'y,' and 'font-size' tags to adjust its position.
+4. **Adjusting Text Placement:** <br>If the text in the generated `logo.svg` does not ideally align within the chosen shape, utilize the 'x,' 'y,' and 'font-size' tags to adjust its position. See [Features](#features) for a demonstration on how to use each tag.
 
 5. **Rename the SVG File:** <br>After generating `logo.svg`, consider renaming the file to your preferred name to prevent overwriting when generating a new one.
 Failure to rename may result in a newly generated `logo.svg` overwriting the existing file.
@@ -52,6 +53,12 @@ Failure to rename may result in a newly generated `logo.svg` overwriting the exi
 6. **Local Copy and Repository Management:** <br>You may keep a local copy of this cloned repository on your computer for convenient future use. Alternatively, you can remove the cloned repository from your computer and re-clone it as needed.
 
 Follow these steps to ensure a seamless and controlled process for generating, adjusting, and managing your SVG logos.
+
+insert video demo answering questions and creating logo.svg
+
+## Features
+
+insert video demo adjusting x y and font size
 
 ## How to Contribute
 
@@ -81,7 +88,6 @@ Email: samantha.rose327@gmail.com
 <li><a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial">MDN Web Docs - SVG Tutorial</a></li>
 <li><a href="https://git.bootcampcontent.com/University-of-Connecticut/CONN-VIRT-FSF-PT-09-2023-U-LOLC/-/tree/main/10-OOP/02-Challenge?ref_type=heads">Circle and Triangle Starter Code</a></li>
 <li><a href="https://www.youtube.com/watch?v=GJYMcLus3v0">Thomas' Object Oriented Programming SVG LOGO MAKER - Youtube</a></li>
-
 
 ## License
 
