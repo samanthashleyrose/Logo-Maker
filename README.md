@@ -62,7 +62,25 @@ insert video demo adjusting x y and font size
 
 ## Tests
 
-jest
+This project uses Jest for testing. To run the tests, ensure that you have Jest installed as a development dependency by running: `npm install --save-dev jest`.
+
+After installing Jest, you can run the tests with the following command: `npm test`.
+
+This command will execute the Jest test suite, including the tests defined in the shapes.test.js file.
+
+### Test Descriptions
+**Circle**<br>
+Test: `render() should return the correct circle SVG string`<br>
+Description: Verifies that the Circle class renders the correct SVG string along with the chosen color.
+
+**Square**<br>
+Test: `render() should return the correct rect SVG string`<br>
+Description: Ensures that the Square class generates the expected SVG string along with the specified color.
+
+**Triangle**<br>
+Test: `render() should return the correct polygon SVG string`<br>
+Description: Validates that the Triangle class produces the correct SVG string along with the desired color.
+
 
 ## How to Contribute
 
