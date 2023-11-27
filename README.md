@@ -60,6 +60,10 @@ insert video demo answering questions and creating logo.svg
 
 insert video demo adjusting x y and font size
 
+## Tests
+
+jest
+
 ## How to Contribute
 
 If you encounter any issues while using the SVG Logo Generator, I encourage you to open a new issue or submit a pull request through this repository. Your feedback is valuable, and your contributions are appreciated.
