@@ -66,6 +66,12 @@ async function init() {
     const response = await inquirer.prompt(questions);
     const svg = new SVG();
 
+    // Confirm text length
+    if (!confirmTextLength(response.text)) {
+        console.log('Error: Text must be up to 3 characters. Please try again.');
+        return;
+    }
+
     // Sets the text/text color
     svg.setTextEl(response.text, response['text-color']);
     
@@ -85,5 +91,13 @@ async function init() {
 
     createSVG(svg);
 }
+
+function confirmTextLength(text) {
+    return text.length <= 3;
+}  
+
+module.exports = {
+    confirmTextLength
+};
 
 init();
