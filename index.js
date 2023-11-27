@@ -33,16 +33,16 @@ const questions = [
         name: 'text-color'
     },
     {
-        type: 'input',
-        message: 'What color would you like the shape to be? Enter a color keyword or hexadecimal color code number.',
-        name: 'shape-color'
-    },
-    {
         type: 'list',
         message: 'Choose what shape you would like',
         choices: ['circle', 'square', 'triangle'],
         name: 'shape'
     },
+    {
+        type: 'input',
+        message: 'What color would you like the shape to be? Enter a color keyword or hexadecimal color code number.',
+        name: 'shape-color'
+    }
 ];
 
 // Function to create a new SVG file with users input 
