@@ -64,23 +64,20 @@ insert video demo adjusting x y and font size
 
 This project uses Jest for testing. To run the tests, ensure that you have Jest installed as a development dependency by running: `npm install --save-dev jest`.
 
-After installing Jest, you can run the tests with the following command: `npm test`.
+After installing Jest, you can run the tests with the following command: `npm test`. This command will execute the Jest test suite. Each tests collectively guarantees the accuracy of the SVG logo generator, providing confidence in its functionality. The tests are categorized into two main sections: **Shape Rendering** and **User Input Confirmation**.
 
-This command will execute the Jest test suite, including the tests defined in the shapes.test.js file.
+### Shape Rendering Tests
 
-### Test Descriptions
-**Circle**<br>
-Test: `render() should return the correct circle SVG string`<br>
-Description: Verifies that the Circle class renders the correct SVG string along with the chosen color.
+Each shape class (`Circle`, `Square`, `Triangle`) is tested to ensure the correctness of their rendering functionality. The primary focus is on the `render()` method, which is expected to return the precise SVG string corresponding to the user's choice of shape. Additionally, the user's selected color is approiately integrated into the SVG string within the fill attribute.
 
-**Square**<br>
-Test: `render() should return the correct rect SVG string`<br>
-Description: Ensures that the Square class generates the expected SVG string along with the specified color.
+### User Input Confirmation Tests
+These tests focus on confirming the validity of user inputs.
 
-**Triangle**<br>
-Test: `render() should return the correct polygon SVG string`<br>
-Description: Validates that the Triangle class produces the correct SVG string along with the desired color.
+**Confirm Text Character Amount**<br>
+Verifies that the length of user-inputted text adheres to the specified limit.
 
+**Confirm Color Input**<br>
+Ensures that user-provided color inputs are valid color keywords or hexadecimal codes.
 
 ## How to Contribute
 

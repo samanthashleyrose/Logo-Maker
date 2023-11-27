@@ -72,9 +72,9 @@ async function init() {
         return;
     };
 
-    // Confirm text length
+    // Confirm color
     if (!confirmColor(response.color)) {
-        console.log('Error: Color must be a color keyword or a hexidecimal code. Please try again.');
+        console.log('Error: Color must be a keyword or a hexidecimal code. Please try again.');
         return;
     };
 
@@ -103,8 +103,8 @@ function confirmTextLength(text) {
 };
 
 function confirmColor(color) {
-    const colorRegex = /^(#[0-9A-Fa-f]{6}|[a-zA-Z]{6,})$/;
-    return colorRegex.test(color);
+    const colorRegExp = /^(#[0-9A-Fa-f]{6}|[a-zA-Z]{6,})$/;
+    return colorRegExp.test(color);
 };
 
 module.exports = {
