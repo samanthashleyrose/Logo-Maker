@@ -70,7 +70,13 @@ async function init() {
     if (!confirmTextLength(response.text)) {
         console.log('Error: Text must be up to 3 characters. Please try again.');
         return;
-    }
+    };
+
+    // Confirm text length
+    if (!confirmColor(response.color)) {
+        console.log('Error: Color must be a color keyword or a hexidecimal code. Please try again.');
+        return;
+    };
 
     // Sets the text/text color
     svg.setTextEl(response.text, response['text-color']);
@@ -90,14 +96,20 @@ async function init() {
     svg.setShapeEl(shape);
 
     createSVG(svg);
-}
+};
 
 function confirmTextLength(text) {
     return text.length <= 3;
-}  
+};
+
+function confirmColor(color) {
+    const colorRegex = /^(#[0-9A-Fa-f]{6}|[a-zA-Z]{6,})$/;
+    return colorRegex.test(color);
+};
 
 module.exports = {
-    confirmTextLength
+    confirmTextLength,
+    confirmColor
 };
 
 init();
