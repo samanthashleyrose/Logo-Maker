@@ -70,14 +70,8 @@ After installing Jest, you can run the tests with the following command: `npm te
 
 Each shape class (`Circle`, `Square`, `Triangle`) is tested to ensure the correctness of their rendering functionality. The primary focus is on the `render()` method, which is expected to return the precise SVG string corresponding to the user's choice of shape. Additionally, the user's selected color is approiately integrated into the SVG string within the fill attribute.
 
-### User Input Confirmation Tests
-These tests focus on confirming the validity of user inputs.
-
-**Confirm Text Character Amount**<br>
-Verifies that the length of user-inputted text adheres to the specified limit.
-
-**Confirm Color Input**<br>
-Ensures that user-provided color inputs are valid color keywords or hexadecimal codes.
+### User Input Confirmation Test
+This test focuses on confirming the validity of user inputs. It verifies that the length of user-inputted text adheres to the specified limit.
 
 ## How to Contribute
 
