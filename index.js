@@ -72,12 +72,6 @@ async function init() {
         return;
     };
 
-    // Confirm color
-    if (!confirmColor(response.color)) {
-        console.log('Error: Color must be a keyword or a hexidecimal code. Please try again.');
-        return;
-    };
-
     // Sets the text/text color
     svg.setTextEl(response.text, response['text-color']);
     
@@ -100,11 +94,6 @@ async function init() {
 
 function confirmTextLength(text) {
     return text.length <= 3;
-};
-
-function confirmColor(color) {
-    const colorRegExp = /^(#[0-9A-Fa-f]{6}|[a-zA-Z]{6,})$/;
-    return colorRegExp.test(color);
 };
 
 module.exports = {
