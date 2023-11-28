@@ -97,8 +97,7 @@ function confirmTextLength(text) {
 };
 
 module.exports = {
-    confirmTextLength,
-    confirmColor
+    confirmTextLength
 };
 
 init();
