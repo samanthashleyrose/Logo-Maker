@@ -54,11 +54,11 @@ Failure to rename may result in a newly generated `logo.svg` overwriting the exi
 
 Follow these steps to ensure a seamless and controlled process for generating, adjusting, and managing your SVG logos.
 
-insert video demo answering questions and creating logo.svg
+https://github.com/samanthashleyrose/SVG-Logo-Maker/assets/142939966/a07f5b17-ddf0-4503-b2ca-ec45fb8fc460
 
 ## Features
 
-insert video demo adjusting x y and font size
+https://github.com/samanthashleyrose/SVG-Logo-Maker/assets/142939966/bec23585-f555-400a-ad0c-f67385631b10
 
 ## Tests
 
