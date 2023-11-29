@@ -52,11 +52,13 @@ Failure to rename may result in a newly generated `logo.svg` overwriting the exi
 
 6. **Local Copy and Repository Management:** <br>You may keep a local copy of this cloned repository on your computer for convenient future use. Alternatively, you can remove the cloned repository from your computer and re-clone it as needed.
 
-Follow these steps to ensure a seamless and controlled process for generating, adjusting, and managing your SVG logos.
+Follow these steps to ensure a seamless and controlled process for generating, adjusting, and managing your SVG logos. See the demo video below on how to use the SVG Logo Generator.
 
 https://github.com/samanthashleyrose/SVG-Logo-Maker/assets/142939966/a07f5b17-ddf0-4503-b2ca-ec45fb8fc460
 
 ## Features
+
+Please review the demo video below on how to utilize the 'x,' 'y,' and 'font-size' tags.
 
 https://github.com/samanthashleyrose/SVG-Logo-Maker/assets/142939966/bec23585-f555-400a-ad0c-f67385631b10
 
@@ -64,7 +66,7 @@ https://github.com/samanthashleyrose/SVG-Logo-Maker/assets/142939966/bec23585-f5
 
 This project uses Jest for testing. To run the tests, ensure that you have Jest installed as a development dependency by running: `npm install --save-dev jest`.
 
-After installing Jest, you can run the tests with the following command: `npm test`. This command will execute the Jest test suite. Each tests collectively guarantees the accuracy of the SVG logo generator, providing confidence in its functionality. The tests are categorized into two main sections: **Shape Rendering** and **User Input Confirmation**.
+After installing Jest, you can run the tests with the following command: `npm test`. This command will execute the Jest test suite. Each tests collectively guarantees the accuracy of the SVG logo generator, providing confidence in its functionality. The tests are categorized into two main sections: **Shape Rendering** and **User Input Confirmation**. See the demo video at the bottom of this section for an example of npm test.
 
 ### Shape Rendering Tests
 
@@ -72,6 +74,8 @@ Each shape class (`Circle`, `Square`, `Triangle`) is tested to ensure the correc
 
 ### User Input Confirmation Test
 This test focuses on confirming the validity of user inputs. It verifies that the length of user-inputted text adheres to the specified limit.
+
+https://github.com/samanthashleyrose/SVG-Logo-Maker/assets/142939966/f5191799-ac02-4c52-aa6e-e8a0f6899d1e
 
 ## How to Contribute
 
