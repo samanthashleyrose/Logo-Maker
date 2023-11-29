@@ -29,9 +29,9 @@ This user-friendly generator employs an interactive questionnaire, powered by th
 
 In order to use the SVG Logo Generator, it is necessary to have a code editor, such as Visual Studio Code (VSCode), and Node.js installed on your system.
 
-1. Begin by installing Node.js on your computer's terminal/commmand-line. For detailed installation instructions, vist <a href='https://nodejs.org/en'>Node.js.org</a>.
+1. Begin by installing Node.js on your computer's terminal/command-line. For detailed installation instructions, visit <a href='https://nodejs.org/en'>Node.js.org</a>.
 
-2. Verify the installation of npm, which usually comes bundled with Node.js. Execute the command `npm -v` in your terminal/commmand-line to confirm that you have the latest version downloaded. If npm is not installed, run the command `npm i` before continuing.
+2. Verify the installation of npm, which usually comes bundled with Node.js. Execute the command `npm -v` in your terminal/command-line to confirm that you have the latest version downloaded. If npm is not installed, run the command `npm i` before continuing.
 
 3. In addition run the command `npm install inquirer@8`. For the SVG Logo Generator to function properly, you must have inquirer version 8.2.6 installed.
 
@@ -39,7 +39,7 @@ In order to use the SVG Logo Generator, it is necessary to have a code editor, s
 
 To effectively use the SVG Logo Generator, ensure that all installation requirements are fulfilled before proceeding with the following usage guidelines.
 
-1. **Clone the Repository:** <br>Begin by cloning the GitHub repository by selecting "Code." Copy the SSH link then execute the `git clone <paste SSH link>` command in your terminal/commmand-line. Next, open the cloned project in your preferred code editor.
+1. **Clone the Repository:** <br>Begin by cloning the GitHub repository by selecting "Code." Copy the SSH link then execute the `git clone <paste SSH link>` command in your terminal/command-line. Next, open the cloned project in your preferred code editor.
 
 2. **Run the Generator:** <br>Right click on the `index.js` file and select "Open in Integrated Terminal". Run the command `node index.js` then answer the prompted questions as they appear.
 
@@ -70,7 +70,7 @@ After installing Jest, you can run the tests with the following command: `npm te
 
 ### Shape Rendering Tests
 
-Each shape class (`Circle`, `Square`, `Triangle`) is tested to ensure the correctness of their rendering functionality. The primary focus is on the `render()` method, which is expected to return the precise SVG string corresponding to the user's choice of shape. Additionally, the user's selected color is approiately integrated into the SVG string within the fill attribute.
+Each shape class (`Circle`, `Square`, `Triangle`) is tested to ensure the correctness of their rendering functionality. The primary focus is on the `render()` method, which is expected to return the precise SVG string corresponding to the user's choice of shape. Additionally, the user's selected color is appropriately integrated into the SVG string within the fill attribute.
 
 ### User Input Confirmation Test
 This test focuses on confirming the validity of user inputs. It verifies that the length of user-inputted text adheres to the specified limit.
